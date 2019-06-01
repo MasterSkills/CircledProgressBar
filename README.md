@@ -2,9 +2,15 @@
 一个简单的圆形进度条，通过简单的圆弧绘制来实现，实现了基本的大小适配、文字大小修改、颜色调整等功能。
 
 # 效果图
+
+效果完美！
+
 ![](https://imgservice.lost520.cn/InternetImgService/2019-06-01/20190601105233971.gif)
 
 # 自动适配
+
+自由适配
+
 ![](https://imgservice.lost520.cn/InternetImgService/2019-06-01/20190601105325674.gif)
 
 # 属性说明
