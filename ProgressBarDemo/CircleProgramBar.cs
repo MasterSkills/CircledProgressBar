@@ -94,26 +94,41 @@ namespace ProgressBarDemo
         public Color BottomColor
         {
             get { return this.bottomColor; }
-            set { this.bottomColor = value; }
+            set
+            {
+                this.bottomColor = value;
+                this.penBottom.Color = value;
+                this.Invalidate();
+            }
         }
         public Color TopColor
         {
             get { return this.topColor; }
-            set { this.topColor = value; }
+            set
+            {
+                this.topColor = value;
+                this.penTop.Color = value;
+                this.Invalidate();
+            }
         }
         public Color FinishedColor
         {
             get { return this.finishedColor; }
-            set { this.finishedColor = value; }
+            set
+            {
+                this.finishedColor = value;
+                this.penFinished.Color = value;
+                this.Invalidate();
+            }
         }
         #endregion
 
+        //对Control进行绘制
         protected override void OnPaint(PaintEventArgs e)
         {
             //base.OnPaint(e);
             DrawShape(e.Graphics);
         }
-
 
         private void DrawShape(Graphics g)
         {
@@ -161,7 +176,7 @@ namespace ProgressBarDemo
             {
                 //绘制进度值
                 SizeF proValSize = g.MeasureString(this.progress.ToString() + "%", this.Font);//计算文字的范围
-                g.DrawString(this.progress.ToString() + "%", this.Font, new SolidBrush(Color.Red), rectangle.X + rectangle.Width / 2 - proValSize.Width / 2, rectangle.Y + rectangle.Height / 2 - proValSize.Height / 2);
+                g.DrawString(this.progress.ToString() + "%", this.Font, new SolidBrush(this.ForeColor), rectangle.X + rectangle.Width / 2 - proValSize.Width / 2, rectangle.Y + rectangle.Height / 2 - proValSize.Height / 2);
             }
         }
 
