@@ -1,0 +1,9 @@
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\bin\Debug\ProgressBarDemo.exe
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\bin\Debug\ProgressBarDemo.pdb
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.csprojAssemblyReference.cache
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.Properties.Resources.resources
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.csproj.GenerateResource.cache
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.csproj.CoreCompileInputs.cache
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.exe
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.pdb
+C:\Users\ITSoftware\source\repos\ProgressBarDemo\ProgressBarDemo\obj\Debug\ProgressBarDemo.FrmMain.resources
